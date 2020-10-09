@@ -1,23 +1,27 @@
-.gallery {
+/* div.galleries {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+} */
+/* .gallery {
     float: left;
     width: 32%;
-    margin-left: 6px;
-}
-@media only screen and (max-width: 700px) {
+} */
+/* @media only screen and (max-width: 700px) {
     .gallery {
       width: 49.99999%;
       margin: 6px 0;
     }
   }
   
-  @media only screen and (max-width: 500px) {
-    .gallery {
-      width: 100%;
-    }
+@media only screen and (max-width: 500px) {
+  .gallery {
+    width: 100%;
   }
+}
   
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
