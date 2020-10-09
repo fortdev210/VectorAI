@@ -15,12 +15,12 @@ const Card = ({item}) => {
         <div>
             <div className="gallery">
                 <p className="title">{item.title}</p>
-                <img src={`images/img${item.position+1}.jpg`} alt={item.type} onClick={openLightBox}/>
+                <img src={`images/img${item.position+1}.png`} alt={item.type} onClick={openLightBox}/>
             </div>
             {    
                 open&&<Lightbox
-                    medium={`images/img${item.position+1}.jpg`}
-                    large={`images/img${item.position+1}.jpg`}
+                    medium={`images/img${item.position+1}.png`}
+                    large={`images/img${item.position+1}.png`}
                     alt={item.title}
                     hideDownload={true}
                     hideZoom={true}
